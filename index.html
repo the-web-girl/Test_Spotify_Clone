@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+</head>
+<body>
+    <nav aria-label="Main navigation">
+        <img src="assets/logo.svg" alt="Logo Spotify Clone" class="logo" />
+        <ul>
+            <li><a href="#home" id="link-home">Accueil</a></li>
+            <li><a href="#search" id="link-search">Rechercher</a></li>
+            <li><a href="#library" id="link-library">Ma Bibliothèque</a></li>
+        </ul>
+        <div id="auth-status" class="auth-status"></div>
+        <button id="login-btn" class="login-btn">Se connecter à Spotify</button>
+    </nav>
+
+    <main id="app" tabindex="-1"></main>
+
+    <footer>
+        <div id="player"></div>
+    </footer>
+
+    <script src="./scripts/router.js"></script>
+    <script src="./scripts/api.js"></script>
+    <script src="./scripts/player.js"></script>
+    <script src="./scripts/views/homeView.js"></script>
+    <script src="./scripts/views/searchView.js"></script>
+    <script src="./scripts/views/libraryView.js"></script>
+    <script src="./scripts/auth.js"></script>
+    <script src="./scripts/main.js"></script>
+    
+</body>
+</html>
