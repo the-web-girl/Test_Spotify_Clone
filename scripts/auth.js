@@ -1,6 +1,6 @@
 // auth.js - Gestion OAuth Spotify
 
-const client_id = 'VOTRE_CLIENT_ID_ICI'; // À remplacer
+const client_id = 'd2924f24fbbf40d5ab32f6988294d930'; // À remplacer
 const redirect_uri = 'http://localhost:5500/';
 const scopes = 'user-read-private user-read-email playlist-read-private';
 
